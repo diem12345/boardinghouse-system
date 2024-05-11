@@ -1,0 +1,38 @@
+
+*{
+    font-family: 'Poppins', sans-serif;  
+}
+body{
+    text-align: left;
+}  
+.image{
+    width: 200px;
+    height: 300px;
+}
+h-font{
+    font-family: 'Roboto', sans-serif;
+}
+.search-container {
+display: flex;
+margin-top: 50px;
+margin-left: 50px;
+}
+
+input[type="text"] {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px 0 0 4px;
+}
+
+button {
+padding: 10px 15px;
+background-color: blue;
+color: #fff;
+border: 1px solid blue;
+border-radius: 0 4px 4px 0;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #45a049;
+}
